@@ -34,5 +34,7 @@ INSERT INTO y_items (name) VALUES ('item_1'),('item_2'),('item_4');
 | NULL   | item_4
 
 Answer:
-```SELECT x_items.name as x_name, y_items.name as y_name
-FROM x_items FULL JOIN y_items on x_items.name = y_items.name;```
+```
+SELECT x_items.name as x_name, y_items.name as y_name
+FROM x_items FULL JOIN y_items on x_items.name = y_items.name;
+```
