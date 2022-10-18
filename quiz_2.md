@@ -18,3 +18,19 @@ VALUES
 (3003,'Ord387654','CA',830),(4004,'Ord476126','TX',120);
 ```
 Điều kiện lọc: Hiển thị các record với điều kiện customer_id có cả DS bao gồm CA và  TX sau đó  hiển thị record chứa TX 
+
+```
+Answer #1:
+WITH tmp AS
+(
+    SELECT customerid FROM orders WHERE deliverystate = 'CA'
+)
+SELECT * FROM orders where deliverystate = "TX" and customerid IN(select customerid FROM tmp)
+```
+
+```
+Answer #2:
+select * from ordersWHERE customerid =
+(SELECT customerid FROM orders WHERE deliverystate = 'CA')
+and deliverystate = 'TX';
+```
