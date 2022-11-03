@@ -1,3 +1,4 @@
+https://sqliteonline.com/
 ```
 CREATE TABLE users (user_id INTEGER);
 CREATE TABLE user_followers (parent_id INTEGER, user_sub_id INTEGER);
