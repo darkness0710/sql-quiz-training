@@ -26,7 +26,7 @@ table: user_followers
 | 1            | 2
 | 1            | 3
 | 1            | 4
-| 1            | 3
+| 2           | 3
 | 2            | 5
 
 table: jobs
