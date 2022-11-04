@@ -20,7 +20,7 @@ INSERT INTO process_logs VALUES
 ('Charlie','Status Complete',6);
 ```
 
-Viết sql để lấy ra giá trị max Occurrences của mỗi Workflow theo thứ tự Workflow tăng dần.
+Viết sql để lấy ra giá trị max Occurrences của mỗi Workflow theo thứ tự Workflow tăng dần.  (không sử dụng having)
 
 |Workflow | LogMessage                              | Occurrences
 | :---:   | :---:                                   | :---: 
