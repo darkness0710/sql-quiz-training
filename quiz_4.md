@@ -28,7 +28,14 @@ table: user_followers
 | 1            | 3
 | 2            | 5
 
-
+table: jobs
+| user_id      | job_id
+| :---:        |    :---:   
+| 1            | 1
+| 2            | 2
+| 4            | 3
+| 5            | 4
+| 1            | 5
 
 Viết sql trả về kết quả sau (Trả về job_ids mà user_id đó sở hữu (bao gồm cả các job_id của sub_id))
 | user_id_unique    | job_ids_value      
