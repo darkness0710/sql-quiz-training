@@ -13,7 +13,7 @@ INSERT INTO persons VALUES
 (7007,'Technician',13),(8008,'Technician',2),(9009,'Technician',7);
 ```
 
-Viết sql để tìm min và max theo mỗi loại job_description!
+Viết sql để để hiển thị như bảng sau!
 
 |Job Description | Most Experienced                              | Least Experienced
 | :---:   | :---:                                   | :---: 
