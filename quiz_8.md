@@ -20,4 +20,3 @@ Viết sql để để hiển thị như bảng sau!
 | Astrogator   | 3003      | 1001
 | Geologist   | 4004               | 6006
 | Technician | 7007      | 8008
-]
