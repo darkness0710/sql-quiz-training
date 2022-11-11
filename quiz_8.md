@@ -1,4 +1,4 @@
-[https://sqliteonline.com/
+https://sqliteonline.com/
 ```
 CREATE TABLE persons
 (
