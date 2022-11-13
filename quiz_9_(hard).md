@@ -19,6 +19,8 @@ INSERT INTO log_shoppings VALUES (10, 1, '2022-11-07');
 INSERT INTO log_shoppings VALUES (11, 1, '2022-12-07');
 INSERT INTO log_shoppings VALUES (12, 1, '2022-12-08');
 ```
+![image](https://user-images.githubusercontent.com/25264763/201518914-0a7c1f8c-a96c-4481-af97-ca7a716ddde9.png)
+
 In ra câu sql để đếm số ngày liên tiếp lớn nhất của mỗi user khi mua hàng!
 
 | user_id  | max 
