@@ -19,7 +19,7 @@ INSERT INTO log_shoppings VALUES (10, 1, '2022-11-07');
 INSERT INTO log_shoppings VALUES (11, 1, '2022-12-07');
 INSERT INTO log_shoppings VALUES (12, 1, '2022-12-08');
 ```
-In ra câu sql để hiển thị số ngày liên tiếp lớn nhất mà user đó mua hàng liên tục
+In ra câu sql để đếm số ngày liên tiếp lớn nhất của mỗi user khi muâ hàng!
 
 | user_id  | max 
 | ----     | ----
