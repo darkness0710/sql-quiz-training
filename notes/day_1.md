@@ -21,6 +21,7 @@ Khóa chính Primary Key có các đặc tính sau:
 - Là duy nhất cho mỗi cột, dòng khác nhau thì giá trị này khác nhau
 - Không được nhận giá trị rỗng NULL
 - Mỗi bảng sẽ có tối đa 1 khóa chính (Ngoài ra khóa chính có thể được tạo ra từ tổ hợp 1 cột hoặc nhiều cột)
+=> Ở bảng users thì cột id được xem như là khóa chính.
 
 # Foreign Key
 - Khóa ngoại của một table được xem như con trỏ trỏ tới khóa chính của table khác.
@@ -39,4 +40,4 @@ id | user_id | note
 1   | 1 | Login with IP 1.2.3.4
 2   | 2 | Login with IP 5.6.7.8
 
-Ở bảng logs thì id là khóa chính còn user_id là khóa ngoại. (khóa ngoại của bảng này sẽ là khóa chính của 1 bảng khác)
+=> Ở bảng logs thì id là khóa chính còn user_id là khóa ngoại. (khóa ngoại của bảng này sẽ là khóa chính của 1 bảng khác)
