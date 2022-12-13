@@ -24,7 +24,8 @@ Khóa chính Primary Key có các đặc tính sau:
 
 # Foreign Key
 - Khóa ngoại của một table được xem như con trỏ trỏ tới khóa chính của table khác.
- - Để dễ hiểu ta có ví dụ sau, giả sử có 2 bảng users và bảng logs:
+- Một table có thể có nhiều khóa ngoại.
+- Để dễ hiểu ta có ví dụ sau, giả sử có 2 bảng users và bảng logs:
 
 ```Bảng users```
 id | name | email | created_at | updated_at | deleted_at
