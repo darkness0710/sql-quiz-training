@@ -4,6 +4,9 @@
 ## SQL là gì?
 - SQL là viết tắt của Structured Query Language, là ngôn ngữ truy vấn có cấu trúc, cho phép bạn truy cập và thao tác với các cơ sở dữ liệu để tạo, xóa, sửa đổi, trích xuất dữ liệu. Các hệ thống quản trị cơ sở dữ liệu như MySql, MS Access, Oracle, Sybase, Informix, Postgres hay SQL Server đều lấy SQL làm ngôn ngữ cơ sở dữ liệu tiêu chuẩn. Càng về sau này thì các ứng dụng đòi hỏi phải có tốc độ xử lý dữ liệu ngày càng nhanh, dẫn đến sự nổi lên của NoSQL(cơ sở dữ liệu phi quan hệ): MapReduce và Bigtable, Cassandra, MongoDB, và nhiều nữa.
 
+## DBMS là gì?
+- Hệ quản trị cơ sở dữ liệu (DBMS) là một phần mềm cho phép tạo lập các CSDL cho các ứng dụng khác nhau và điều khiển mọi truy cập tới các CSDL đó. Nghĩa là, hệ quản trị CSDL cho phép định nghĩa (xác định kiểu, cấu trúc, ràng buộc dữ liệu), tạo lập (lưu trữ dữ liệu trên các thiết bị nhớ) và thao tác (truy vấn, cập nhật, kết xuất, ...) các CSDL cho các ứng dụng khác nhau. Ví dụ: MS. Access, MS. SQL Server, ORACLE, IBM DB2, ...
+
 ## Table
 - Một bảng nó lưu trữ và hiện thị thông tin với cấu trúc gồm có các cột và các hàng.
 Cơ sở dữ liệu sẽ có nhiều bảng, mỗi bảng được thiết kế với mục đích lưu trữ một loại thông tin nhất định.
