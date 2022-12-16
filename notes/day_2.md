@@ -187,3 +187,9 @@ Khi định nghĩa một trường kiểu này, tức là, ta đã chỉ ra mộ
 Ví dụ, nếu ta muốn một trường nào đó chỉ nhận một trong các giá trị "A" hoặc "B" hoặc "C" thì ta phải định nghĩa kiểu ENUM.
 Cụ thể như sau: ENUM ('A', 'B', 'C'). Và chỉ có các giá trị này (hoặc NULL) có thể xuất hiện trong trường đó.
 ```
+
+4. Thực hành
+https://sqliteonline.com/
+Hãy thiết kế bảng user với gợi ý các cột có như sau:
+![image](https://user-images.githubusercontent.com/25264763/208044941-c4fa89c6-f172-4223-9115-ccf9b3e13f40.png)
+
