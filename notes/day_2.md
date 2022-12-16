@@ -190,6 +190,6 @@ Cụ thể như sau: ENUM ('A', 'B', 'C'). Và chỉ có các giá trị này (h
 
 4. Thực hành
 https://sqliteonline.com/
-Hãy thiết kế bảng users với gợi ý các cột có như sau:
+Hãy viết câu lệnh SQL tạo bảng users với gợi ý các cột có như sau:
 ![image](https://user-images.githubusercontent.com/25264763/208044941-c4fa89c6-f172-4223-9115-ccf9b3e13f40.png)
 
