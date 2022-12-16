@@ -1,7 +1,7 @@
 ## Database
 ### 1. Tạo mới database
 ```
-CRETATE DATABASE <database_name>;
+CREATE DATABASE <database_name>;
 ```
 ### 2. Xóa database
 ```
