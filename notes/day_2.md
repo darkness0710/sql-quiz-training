@@ -139,7 +139,9 @@ ENUM
 SET
 ```
 #### 3.1 Kiểu dữ liệu CHAR và VARCHAR
-Kiểu dữ liệu CHAR và VARCHAR là giống nhau, nhưng khác nhau ở cách chúng được lưu trữ và truy xuất. Chúng cũng khác nhau về chiều dài tối đa và giữ lại hay không khoảng trắng phía trước (gọi là trailing spaces).
+Kiểu dữ liệu CHAR và VARCHAR là giống nhau, nhưng khác nhau ở cách chúng được lưu trữ và truy xuất. 
+
+Chúng cũng khác nhau về chiều dài tối đa và giữ lại hay không khoảng trắng phía trước (gọi là trailing spaces).
 ```
 CHAR
 Định dạng hiển thị: Khoảng trắng phía trước (Trailing spaces) được loại bỏ
@@ -181,4 +183,7 @@ Có 4 loại TEXT tương ứng với bốn loại BLOB:
 
 #### 3.4 Kiểu dữ liệu ENUM
 Khi định nghĩa một trường kiểu này, tức là, ta đã chỉ ra một danh sách các đối tượng mà trường phải nhận (có thể là Null).
-Ví dụ, nếu ta muốn một trường nào đó chỉ nhận một trong các giá trị "A" hoặc "B" hoặc "C" thì ta phải định nghĩa kiểu ENUM cho nó như sau: ENUM ('A', 'B', 'C'). Và chỉ có các giá trị này (hoặc NULL) có thể xuất hiện trong trường đó.
+```
+Ví dụ, nếu ta muốn một trường nào đó chỉ nhận một trong các giá trị "A" hoặc "B" hoặc "C" thì ta phải định nghĩa kiểu ENUM.
+Cụ thể như sau: ENUM ('A', 'B', 'C'). Và chỉ có các giá trị này (hoặc NULL) có thể xuất hiện trong trường đó.
+```
