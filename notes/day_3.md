@@ -26,6 +26,7 @@ WHERE [condition]
 ```
 
 ## Ví dụ
+https://sqliteonline.com/
 1. Chúng ta tạo một bảng users như sau:
 ```
 CREATE TABLE users
