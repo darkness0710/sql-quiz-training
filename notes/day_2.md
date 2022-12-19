@@ -23,6 +23,11 @@ Câu lệnh bao gồm:
 + Định nghĩa tên các cột và giá trị các cột
 ```
 
+Ví dụ về câu lệnh drop table
+```
+DROP TABLE 'users';
+```
+
 ## Các kiểu dữ liệu
 ### 1. Kiểu dữ liệu số (Numeric Data Types)
 #### 1.1 Kiểu dữ liệu số nguyên
